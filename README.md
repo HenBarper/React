@@ -1,9 +1,11 @@
 # Learning React
+left off @ 10:05
 
 ## Sections
 <a name="Sections"></a>
 1. [What is React?](#whatIsReact)
 2. [Creating a React App](#creatingAReactApp)
+3. [Understanding Our React App](#understandingOurReactApp)
 
 [Sources](#sources)
 [Credits](#credits)
@@ -34,6 +36,15 @@ ________________________________________________________________________________
 - Choose the React framework and Javascript + SWC
 - Run `npm i` to get your dependencies
 - Run `npm run dev` to run your newly created App.
+
+[Back to top](#Sections)
+__________________________________________________________________________________________________________________________________________
+<a name="understandingOurReactApp"></a>
+## Understanding Our React App
+- The index.html and src/main.jsx are hooking up to one another
+- Our src/App.jsx has a function that is being exported as our React App
+  - A function inside React that starts with a capital letter is essentially a component.
+     - A component is a function that returns jsx code.
 
 [Back to top](#Sections)
 __________________________________________________________________________________________________________________________________________
