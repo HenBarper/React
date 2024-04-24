@@ -24,6 +24,7 @@ ________________________________________________________________________________
     -  Next.js or Remix for example
 - React can be used to build web or native apps.
 
+[Back to top](#Sections)
 __________________________________________________________________________________________________________________________________________
 <a name="creatingAReactApp"></a>
 ## Creating a React App
@@ -34,6 +35,7 @@ ________________________________________________________________________________
 - Run `npm i` to get your dependencies
 - Run `npm run dev` to run your newly created App.
 
+[Back to top](#Sections)
 __________________________________________________________________________________________________________________________________________
 <a name="sources"></a>
 ## Sources
@@ -48,6 +50,7 @@ ________________________________________________________________________________
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+[Back to top](#Sections)
 __________________________________________________________________________________________________________________________________________
 <a name="credits"></a>
 ### Contributor: Ben Harper
@@ -55,5 +58,3 @@ Website: [BenHarperWebDev](https://henbarper.github.io/benharperwebdev/)
 LinkedIn: [linkedin.com/in/ben-harper-webdev](https://www.linkedin.com/in/ben-harper-webdev/)
 
 [Back to top](#Sections)
-
-[Credits](#Credits)
