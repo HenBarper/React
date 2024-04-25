@@ -50,9 +50,9 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________________________________
 <a name="sources"></a>
 ## Sources
-[react.dev](https://react.dev/)
-[react.dev/learn](https://react.dev/learn)
-[Learn React With This One Project by Web Dev Simplified](https://www.youtube.com/watch?v=Rh3tobg7hEo)
+[react.dev](https://react.dev/)<br>
+[react.dev/learn](https://react.dev/learn)<br>
+[Learn React With This One Project by Web Dev Simplified](https://www.youtube.com/watch?v=Rh3tobg7hEo)<br>
 
 ### React + Vite
 - This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
