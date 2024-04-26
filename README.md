@@ -1,14 +1,16 @@
 # Learning React
-left off @ 10:05
+left off @ 30:56
 
 ## Sections
 <a name="Sections"></a>
 1. [What is React?](#whatIsReact)
 2. [Creating a React App](#creatingAReactApp)
 3. [Understanding Our React App](#understandingOurReactApp)
+4. [State](#state)
+5. [Notes](#notes)
 
-[Sources](#sources)
-[Credits](#credits)
+[Sources](#sources)<br>
+[Credits](#credits)<br>
 __________________________________________________________________________________________________________________________________________
 <a name="whatIsReact"></a>
 ## What is React?
@@ -45,6 +47,30 @@ ________________________________________________________________________________
 - Our src/App.jsx has a function that is being exported as our React App
   - A function inside React that starts with a capital letter is essentially a component.
      - A component is a function that returns jsx code.
+
+[Back to top](#Sections)
+__________________________________________________________________________________________________________________________________________
+<a name="state"></a>
+## State
+- State is immutable and cannot be changed.
+
+[Back to top](#Sections)
+__________________________________________________________________________________________________________________________________________
+<a name="notes"></a>
+## Notes
+- class is a reserved word in javascript so when using html tags we should use `className` instead.
+  - `<form className="name_here"></form>`
+- for is also a reserved word in javascript so use `htmlFor` instead
+  - `<label htmlFor="item">New Item</label>`
+- Components in React can only return one element.
+  - You can get around this by fragmenting.
+    - Surround your elements with `<>components_here</>`
+- Anytime you put something in curly brackets `{code}` it will be run as javascript code.
+- If you're returning an array of elements inside of React, each element at the top level needs to have a `key` property.
+- Without the arrow function indicator in this code `onClick={() => deleteTodo(todo.id)}` the onClick will recieve the return value of the function call.
+
+## Further research
+- Short cicuiting
 
 [Back to top](#Sections)
 __________________________________________________________________________________________________________________________________________
