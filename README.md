@@ -1,5 +1,4 @@
 # Learning React
-left off @ 30:56
 
 ## Sections
 <a name="Sections"></a>
@@ -7,7 +6,8 @@ left off @ 30:56
 2. [Creating a React App](#creatingAReactApp)
 3. [Understanding Our React App](#understandingOurReactApp)
 4. [State](#state)
-5. [Notes](#notes)
+5. [Props](#props)
+6. [Notes](#notes)
 
 [Sources](#sources)<br>
 [Credits](#credits)<br>
@@ -51,12 +51,34 @@ ________________________________________________________________________________
 [Back to top](#Sections)
 __________________________________________________________________________________________________________________________________________
 <a name="state"></a>
+
 ## State
 - State is immutable and cannot be changed.
+- Import UseState
+  - `import { useState } from "react"`
+- Create State Objects
+  - `const [newItem, setNewItem] = useState("")`
+  - `const [todos, setTodos] = useState([])`
+
+[Back to top](#Sections)
+__________________________________________________________________________________________________________________________________________
+<a name="props"></a>
+
+## Props
+- Props can be passed when initializing a component
+  - `<NewTodoForm onSubmit={addTodo} />`
+  - `<TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />`
+- Accept props in the component declaration
+  - `export function NewTodoForm({ onSubmit }) {...}`
+  - `export function NewTodoForm({ props }) {...}`
+  - Then call use/call them
+    - `onSubmit();`
+    - `props.onSubmit();`
 
 [Back to top](#Sections)
 __________________________________________________________________________________________________________________________________________
 <a name="notes"></a>
+
 ## Notes
 - class is a reserved word in javascript so when using html tags we should use `className` instead.
   - `<form className="name_here"></form>`
@@ -68,6 +90,9 @@ ________________________________________________________________________________
 - Anytime you put something in curly brackets `{code}` it will be run as javascript code.
 - If you're returning an array of elements inside of React, each element at the top level needs to have a `key` property.
 - Without the arrow function indicator in this code `onClick={() => deleteTodo(todo.id)}` the onClick will recieve the return value of the function call.
+- `UseState()` & `useEffect()`are hooks.
+  - Hooks must be called at the top of the function
+    - They cannot be called conditionally
 
 ## Further research
 - Short cicuiting
